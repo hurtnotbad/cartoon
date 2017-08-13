@@ -1,0 +1,25 @@
+﻿生成启动时间为 2017/8/13 19:39:20。
+     1>项目“c:\Users\Lammy\documents\visual studio 2013\Projects\cartoon\cartoon\cartoon.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\develop-tools\Vs2013\VC\bin\x86_amd64\CL.exe /c /IE:\opencv\opencv\build\include /Zi /nologo /W3 /WX- /sdl /Od /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt "源.cpp"
+         源.cpp
+     1>E:\opencv\opencv\build\include\opencv2/core/mat.hpp(2586): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>E:\opencv\opencv\build\include\opencv2/core/persistence.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>E:\opencv\opencv\build\include\opencv2/core/utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>E:\opencv\opencv\build\include\opencv2/imgproc.hpp(592): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>源.cpp(104): warning C4244: “初始化”: 从“int”转换到“float”，可能丢失数据
+     1>源.cpp(105): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+     1>源.cpp(110): warning C4244: “初始化”: 从“int”转换到“float”，可能丢失数据
+     1>源.cpp(112): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>源.cpp(117): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>源.cpp(220): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>源.cpp(221): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>源.cpp(222): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+       Link:
+         D:\develop-tools\Vs2013\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"c:\users\lammy\documents\visual studio 2013\Projects\cartoon\x64\Debug\cartoon.exe" /INCREMENTAL /NOLOGO /LIBPATH:E:\opencv\opencv\build\x64\vc14\lib opencv_world320.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"c:\users\lammy\documents\visual studio 2013\Projects\cartoon\x64\Debug\cartoon.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"c:\users\lammy\documents\visual studio 2013\Projects\cartoon\x64\Debug\cartoon.lib" /MACHINE:X64 "x64\Debug\源.obj"
+         cartoon.vcxproj -> c:\users\lammy\documents\visual studio 2013\Projects\cartoon\x64\Debug\cartoon.exe
+     1>已完成生成项目“c:\Users\Lammy\documents\visual studio 2013\Projects\cartoon\cartoon\cartoon.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.04
